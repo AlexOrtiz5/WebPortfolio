@@ -33,6 +33,16 @@
   - Accessibility: The website should be accessible to users with disabilities, adhering to accessibility guidelines (e.g., WCAG).
   - Search Engine Optimization (SEO): Basic SEO techniques should be implemented to improve the website's visibility in search engine results.
 
-  
+# Technologies 
+  Frontend:
+  - HTML: For structuring the content of the webpage.
+  - CSS: For styling the visual appearance of the webpage (though you mentioned using inline styles in some cases).
+  - JavaScript: For adding interactivity and dynamic behavior to the webpage (e.g., handling button clicks, managing state).
+  - React.js: A JavaScript library for building user interfaces, used for components like App, Header, Section, About, and Project.
+
+  Other Tools:
+  - Git: For version control and collaboration.
+  - GitHub: Platforms for hosting and managing your Git repositories.
+
 # Contact
   linkedin, github
