@@ -1,13 +1,10 @@
 # WebPortfolio
-  Project status(Active) 
-  and Currently incomplet
+  Project status(Active)
 
 # Project objective
-
-  To design and implement a comprehensive and visually appealing web page that serves as a dynamic online portfolio. This project aims to effectively communicate my professional identity and showcase my skills, experience, and aspirations to potential employers, collaborators, and other interested parties. The website will include a clear and concise presentation of my academic background, technical skills (including proficiency in [list specific skills like Python, SQL, etc.]), relevant projects with detailed descriptions and outcomes, and a professional contact section. The goal is to create an engaging and informative online presence that reflects my professional goals and demonstrates my abilities to potential employers and collaborators.
+  The objective of this project is to create a dynamic and professional online portfolio that effectively showcases my skills and experience as a data analyst. By utilizing a single-page application architecture built with React and styled with CSS, the project provides a seamless user experience. The portfolio's primary function is to serve as a comprehensive digital resume, highlighting my background in computer science, detailing key projects, and outlining my proficiency in various programming languages, software, and operating systems. The design ensures all information is easily accessible, allowing visitors to explore my qualifications without navigating to new pages.
 
 # Project Description
-
   This project involves the creation of a personal website to showcase my skills, experience, and projects. The website will serve as an online portfolio and professional resume, providing a platform to present my qualifications and attract potential employers and collaborators.
   
   # Key Features:
