@@ -8,15 +8,12 @@
   This project's data is an internally managed collection of static text and image references. The data is not sourced from an external file or database but is directly embedded within the App.jsx file as JavaScript objects and variables. For instance, the project descriptions are stored in a simple array-like structure, while your personal information is represented as strings and an array of objects. The characteristics of this dataset are that it is non-dynamic and client-side only, meaning the content can only be updated by manually editing the source code. This approach is ideal for a portfolio because it provides a reliable, fast-loading, and secure way to display a fixed set of information without relying on external data fetches or a backend server.
   
   # Key Features:
-  - Homepage: A welcoming homepage featuring a professional headshot and a brief introduction.
-  - About Me: A detailed section highlighting my educational background, skills (including proficiency in Python, SQL, JavaScript, HTML, and potentially other relevant tools), and professional aspirations.
-  - Projects: A dedicated section to showcase my past projects. Each project will be presented with a title, a brief description, and a link to the project's repository or a live demo (if applicable).
-  - Contact: A contact section with information on how to reach me, including email address, phone number (optional), LinkedIn profile link, and any other relevant social media profiles.
-  
-  # Technologies:
-  - Frontend: HTML, CSS, JavaScript (or a JavaScript framework like React)
-  - Backend: (Optional) If you plan to add dynamic features like a blog or contact form, you may use a backend language like Python with a framework like Flask or Django.
-  - Version Control: Git (using platforms like GitHub or GitLab)
+    - Single-Page Application: The portfolio is built as a single-page application (SPA), providing a seamless user experience. Content for different sections is rendered dynamically on the same page, eliminating the need for full page reloads.
+    - Homepage: A welcoming homepage that serves as the main entry point. It features a professional-style image and a concise introduction. It also includes sections that serve as entry points to more detailed views.
+    - About Me Section: A detailed view that is accessible via a button on the homepage. This section provides a more in-depth look into my educational background, professional skills, and aspirations.
+    - Projects Section: A dedicated view for showcasing my past projects. This section is also accessed through a button on the homepage and displays each project with a title, a brief description, and a link to its repository or a live demo.
+    - Technical Skills Section: A new, dedicated view that lists my programming proficiencies, the software and programs I use, and the operating systems I am familiar with. This is also accessible via a button from the homepage.
+    - Contact Section: A dedicated section on the homepage with clear information on how to reach me, including my email, LinkedIn profile, and GitHub profile.
   
   Project Goals:
 
@@ -31,6 +28,10 @@
   - Search Engine Optimization (SEO): Basic SEO techniques should be implemented to improve the website's visibility in search engine results.
 
 # Technologies 
+  - Frontend: HTML, CSS, JavaScript (or a JavaScript framework like React)
+  - Backend: (Optional) If you plan to add dynamic features like a blog or contact form, you may use a backend language like Python with a framework like Flask or Django.
+  - Version Control: Git (using platforms like GitHub or GitLab)
+  
   Frontend:
   - HTML: For structuring the content of the webpage.
   - CSS: For styling the visual appearance of the webpage (though you mentioned using inline styles in some cases).
