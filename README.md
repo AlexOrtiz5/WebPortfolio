@@ -17,15 +17,13 @@
   
   Project Goals:
 
-  To create a visually appealing and user-friendly website that effectively communicates my professional identity.
-  To showcase my technical skills and project experience to potential employers and collaborators.
-  To establish a professional online presence and build my personal brand.
+  The primary goal of this project is to create a dynamic and professional portfolio that effectively showcases my skills and professional identity. By implementing a single-page application (SPA) architecture, the website provides a seamless and modern user experience. The key objective is to demonstrate my ability to develop a comprehensive front-end solution using React and state management (useState) to control the flow and display of content. The portfolio aims to serve as a comprehensive digital resume, highlighting my technical skills and project experience to potential employers and collaborators, ultimately helping to establish my personal brand and online presence.
   
   Additional Considerations:
 
-  - Responsive Design: The website should be responsive and adapt to different screen sizes (desktops, tablets, and mobile devices).
-  - Accessibility: The website should be accessible to users with disabilities, adhering to accessibility guidelines (e.g., WCAG).
-  - Search Engine Optimization (SEO): Basic SEO techniques should be implemented to improve the website's visibility in search engine results.
+  - Responsive Design: The application is built with a fully responsive design, ensuring it provides an optimal viewing and interaction experience across various devices, including desktops, tablets, and mobile phones.
+  - Accessibility: The project adheres to fundamental accessibility principles, using clear and semantic HTML and ensuring that interactive elements are navigable and understandable for all users.
+  - Search Engine Optimization (SEO): While a single-page architecture can present challenges for traditional SEO, the project's structure is optimized for content clarity. For future enhancements, strategies like server-side rendering would be a key consideration to improve search engine visibility.
 
 # Technologies 
   - Frontend: HTML, CSS, JavaScript (or a JavaScript framework like React)
