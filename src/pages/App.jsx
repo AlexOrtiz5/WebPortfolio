@@ -14,6 +14,37 @@ const App = () => {
   // Use state to track the current view: 'home', 'about', 'projects', or 'skills'.
   const [currentView, setCurrentView] = useState('home');
 
+  // New: Separate project data into categories for better organization.
+  const dataAnalyticsProjects = [
+    {
+      id: 1,
+      title: 'Data Analysis Dashboard',
+      description: 'A data analysis dashboard built with Python and Tableau to visualize key business metrics and trends.',
+      link: 'https://github.com/your-username/project-repo-1'
+    },
+    {
+      id: 2,
+      title: 'Web Scraping Tool',
+      description: 'A Python-based tool for scraping and cleaning data from various websites for use in data analysis projects.',
+      link: 'https://github.com/your-username/project-repo-2'
+    },
+  ];
+  
+  const webDevProjects = [
+    {
+      id: 3,
+      title: 'Simple React App',
+      description: 'A small-scale React application to demonstrate proficiency in component-based UI development and state management.',
+      link: 'https://github.com/your-username/project-repo-3'
+    },
+    {
+      id: 4,
+      title: 'Portfolio Website',
+      description: 'The very website you are viewing! Built from scratch using React, HTML, and CSS to showcase skills in modern front-end development.',
+      link: 'https://github.com/your-username/project-repo-4'
+    },
+  ];
+
   // Content for the About Me page
   const aboutContent = (
     <div className="about-page-container">
@@ -40,34 +71,38 @@ const App = () => {
   );
 
   // Content for the Projects page
+  // This section is now split into two categories.
   const projectsContent = (
     <div className="projects-page-container">
       <h1>My Projects</h1>
       <hr className="projects-line" />
+      
+      <h2>Data Analytics Projects</h2>
       <div className="projects-grid">
-        {/* Hardcoded projects data. You can replace this with data from a JSON file or API. */}
-        <div className="project-card">
-          <h2>Data Analysis Dashboard</h2>
-          <p>A data analysis dashboard built with Python and Tableau to visualize key business metrics and trends.</p>
-          <a href="#" target="_blank" rel="noopener noreferrer" className="project-link">
-            View Project
-          </a>
-        </div>
-        <div className="project-card">
-          <h2>Web Scraping Tool</h2>
-          <p>A Python-based tool for scraping and cleaning data from various websites for use in data analysis projects.</p>
-          <a href="#" target="_blank" rel="noopener noreferrer" className="project-link">
-            View Project
-          </a>
-        </div>
-        <div className="project-card">
-          <h2>Simple React App</h2>
-          <p>A small-scale React application to demonstrate proficiency in component-based UI development and state management.</p>
-          <a href="#" target="_blank" rel="noopener noreferrer" className="project-link">
-            View Project
-          </a>
-        </div>
+        {dataAnalyticsProjects.map((project) => (
+          <div key={project.id} className="project-card">
+            <h2>{project.title}</h2>
+            <p>{project.description}</p>
+            <a href={project.link} target="_blank" rel="noopener noreferrer" className="project-link">
+              View Project
+            </a>
+          </div>
+        ))}
       </div>
+      
+      <h2>Web Development Projects</h2>
+      <div className="projects-grid">
+        {webDevProjects.map((project) => (
+          <div key={project.id} className="project-card">
+            <h2>{project.title}</h2>
+            <p>{project.description}</p>
+            <a href={project.link} target="_blank" rel="noopener noreferrer" className="project-link">
+              View Project
+            </a>
+          </div>
+        ))}
+      </div>
+      
       <button onClick={() => setCurrentView('home')} className="projects-back-button">Back to Home</button>
     </div>
   );
