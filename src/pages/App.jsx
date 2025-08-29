@@ -18,27 +18,33 @@ const App = () => {
   const dataAnalyticsProjects = [
     {
       id: 1,
-      title: 'Data Analysis Dashboard',
-      description: 'A data analysis dashboard built with Python and Tableau to visualize key business metrics and trends.',
-      link: 'https://github.com/your-username/project-repo-1'
+      title: 'Themes, Prices, and the Evolution of Sets',
+      description: 'A thorough analysis of LEGO set prices using two datasets. The project investigated themes, materials, and partnerships to understand the intricate factors influencing pricing mechanics in the LEGO industry. (Technologies: Python, Pandas, Matplotlib)',
+      link: 'https://github.com/AlexOrtiz5/Project-1' // Replace with your actual GitHub link
     },
     {
       id: 2,
-      title: 'Web Scraping Tool',
-      description: 'A Python-based tool for scraping and cleaning data from various websites for use in data analysis projects.',
-      link: 'https://github.com/your-username/project-repo-2'
+      title: 'Vanguard A/B Test Analysis',
+      description: 'Analyzed Vanguard\'s A/B testing using three key datasets. Conducted exploratory data analysis with Python to find patterns and connections, ensuring data integrity for accurate findings. (Technologies: Python, MySQL, Tableau, Pandas, Matplotlib, Seaborn)',
+      link: 'https://github.com/AlexOrtiz5/vanguard-ab-test' // Replace with your actual GitHub link
+    },
+    {
+      id: 3,
+      title: 'Game Insights: Analyzing Popularity, Platforms, and User Feedback',
+      description: 'Investigated the relationships between game popularity, platform accessibility, Metacritic scores, and user reviews to get actionable data. The goal was to help industry stakeholders enhance their game success strategies. (Technologies: Python, MySQL, Tableau, Pandas, Scikit-Learn)',
+      link: 'https://github.com/AlexOrtiz5/Games-Study' // Replace with your actual GitHub link
     },
   ];
   
   const webDevProjects = [
     {
-      id: 3,
+      id: 4,
       title: 'Simple React App',
       description: 'A small-scale React application to demonstrate proficiency in component-based UI development and state management.',
       link: 'https://github.com/your-username/project-repo-3'
     },
     {
-      id: 4,
+      id: 5,
       title: 'Portfolio Website',
       description: 'The very website you are viewing! Built from scratch using React, HTML, and CSS to showcase skills in modern front-end development.',
       link: 'https://github.com/your-username/project-repo-4'
