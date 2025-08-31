@@ -39,15 +39,15 @@ const App = () => {
   const webDevProjects = [
     {
       id: 4,
-      title: 'Simple React App',
-      description: 'A small-scale React application to demonstrate proficiency in component-based UI development and state management.',
-      link: 'https://github.com/your-username/project-repo-3'
+      title: 'Web Portfolio',
+      description: 'A professional, single-page portfolio built with React to showcase skills and experience as a data analyst. It serves as a comprehensive digital resume with dynamic content views.',
+      link: 'https://github.com/AlexOrtiz5/WebPortfolio' // Replace with your actual GitHub link
     },
     {
       id: 5,
-      title: 'Portfolio Website',
-      description: 'The very website you are viewing! Built from scratch using React, HTML, and CSS to showcase skills in modern front-end development.',
-      link: 'https://github.com/your-username/project-repo-4'
+      title: 'Project-P',
+      description: 'A personal, single-page web application designed as a streamlined digital workspace for a specific multi-step creative process. It features a dynamic, user-centric interface with specialized utilities.',
+      link: 'https://github.com/AlexOrtiz5/project-p' // Replace with your actual GitHub link
     },
   ];
 
