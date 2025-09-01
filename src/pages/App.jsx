@@ -199,16 +199,16 @@ const App = () => {
           <div className="logo-container">
             <div className="logo-item">
               <img src={emailLogo} alt="Email" className="logo" />
-              <p>example@email.com</p>
+              <p>alexortizcotto0@gmail.com</p>
             </div>
             <div className="logo-item">
-              <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.linkedin.com/in/alexortiz5" target="_blank" rel="noopener noreferrer">
                 <img src={linkedinLogo} alt="LinkedIn" className="logo" />
               </a>
               <p>LinkedIn</p>
             </div>
             <div className="logo-item">
-              <a href="https://github.com/yourprofile" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/AlexOrtiz5" target="_blank" rel="noopener noreferrer">
                 <img src={githubLogo} alt="GitHub" className="logo" />
               </a>
               <p>GitHub</p>
