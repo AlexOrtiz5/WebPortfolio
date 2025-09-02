@@ -60,15 +60,24 @@ const App = () => {
           <img src="https://placehold.co/400x400/505050/FFFFFF?text=Your+Image" alt="Profile" className="about-image" />
         </div>
         <div className="about-text-container">
-          <h1>More About Me</h1>
+          <h1>Hi there 👋</h1>
           <p>
-            I am a dedicated Data Analyst with a passion for transforming complex data into actionable insights. My strong foundation in computer science, coupled with a minor in cybersecurity, allows me to approach data analysis with a comprehensive understanding of systems and security.
+            I'm a Data Analyst with experience in computer science. Although I do have some knowledge in data scraping, my main competence is in data analysis and cleansing. I know a little bit about everything because I have a bachelor's degree in computer science and a minor in cybersecurity.
+          </p>
+          <h2>A little about me</h2>
+          <p>
+            Being a dedicated, flexible, and caring person who can function effectively both alone and in a group gives me a tremendous deal of satisfaction. I was born in Puerto Rico.
+          </p>
+          <h2>Work Experience:</h2>
+          <p>
+            I was helping my mentor, a professor from the University of Pittsburgh, analyze and try to identify a relationship with the data that was provided to me in order to try and support a theory that they had. They also required help generating some graphs, cleaning up the data, and writing a Python function that included all of that information.
+          </p>
+          <h2>Where did I study</h2>
+          <p>
+            I just finished a virtual three-month Ironhack Miami bootcamp from Puerto Rico. It was a bootcamp for data analytics with an emphasis on Python, SQL, Pandas, and Tableau for data analysis and interactive graph creation. Finally, Tableau presented the data in an interactive fashion, and MySQL was used to use the clean data more efficiently. My decision to enroll in the data analytics program stemmed from my desire to learn more about developing my skills. I think it's something I'd like to achieve to pursue this career route.
           </p>
           <p>
-            My expertise lies in data cleansing, analysis, and visualization using tools like Python (Pandas, NumPy), SQL, and Tableau. I am constantly seeking to expand my knowledge and apply my skills to solve challenging real-world problems.
-          </p>
-          <p>
-            In my spare time, I enjoy working on personal projects, which allows me to explore new technologies and refine my problem-solving skills.
+            Prior to that, I had just received my degree in computer science with a cybersecurity minor from the University of Puerto Rico, Rio Piedras.
           </p>
         </div>
       </div>
