@@ -57,7 +57,7 @@ const App = () => {
       <div className="about-card-container">
         <div className="about-image-container">
           {/* Placeholder for the image. Replace with your actual image path. */}
-          <img src="https://placehold.co/400x400/505050/FFFFFF?text=Your+Image" alt="Profile" className="about-image" />
+          <img src="../images/dragon-knight-armor.png" alt="Profile" className="about-image" />
         </div>
         <div className="about-text-container">
           <h1>Hi there 👋</h1>
@@ -181,11 +181,10 @@ const App = () => {
       {/* Projects Section */}
       <Section id="projects">
         <div className="section-content">
-          <h2 className="content-title">Information</h2>
+          <h2 className="content-title">Projects</h2>
           <hr className="horizontal-line" />
-          <p className="content-paragraph">Programming languages I know: Python, SQL, JavaScript, HTML</p>
-          <p className="content-paragraph">Projects I have done: To know more about the projects you could continue here.</p>
-          <button onClick={() => setCurrentView('projects')} className="section-button">For more information, continue here</button>
+          <p className="content-paragraph">This section showcases my data analysis and web development projects, providing a glimpse into my skills and past work.</p>
+          <button onClick={() => setCurrentView('projects')} className="section-button">View My Projects</button>
         </div>
         <img src={programming} alt="Languages" className="square" />
       </Section>
